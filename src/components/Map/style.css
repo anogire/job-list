@@ -1,0 +1,14 @@
+.ol-map {
+  height: 27rem;
+  position: relative;
+}
+
+.ol-viewport {
+  height: 90% !important;
+  position: absolute !important;
+  bottom: 0;
+  border-radius: 8px;
+  -webkit-filter: sepia(50%) invert(100%) saturate(70%);
+  filter: sepia(50%) invert(100%) saturate(70%);
+  overflow: hidden;
+}
