@@ -15,7 +15,7 @@ export const AttachedImages: React.FC<ImgProps> = ({ pictures }) => {
           pictures.map((picture, i) => {
             return (
               <li key={i} className="basis-[32%] mx-1.5">
-                <img src={picture} className="w-full h-28 object-cover rounded-lg" alt="job vision" />
+                <img src={`${picture}?${i}`} className="w-full h-28 object-cover rounded-lg" alt="job vision" />
               </li>
             )
           })

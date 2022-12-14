@@ -20,7 +20,7 @@ export const Content: React.FC<JobListProps> = ({ items }) => {
             className="flex bg-board-card-mobile rounded-lg shadow-block mb-2 px-4 py-3 md:bg-white md:py-6"
           >
             <div className="flex shrink-0 items-center mr-5 md:items-start md:mr-7">
-              <img src={pictures[0]} className="rounded-full aspect-square w-16 h-16 md:w-20 md:h-20" alt="job icon" />
+              <img src={`${pictures[0]}/?${id}`} className="rounded-full aspect-square w-16 h-16 md:w-20 md:h-20" alt="job icon" />
             </div>
             <div className="w-full flex flex-col md:flex-row">
               <div className="w-full flex flex-col justify-between md:mr-7 xl:mr-48">
