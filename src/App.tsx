@@ -2,10 +2,13 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { COUNT_PER_PAGE, TOKEN, URL_BASE } from "./utils/consts";
+import { COUNT_PER_PAGE } from "./utils/consts";
 import { JobInfo } from "./utils/types";
 import { JobList } from "./components/JobList";
 import { JobDetails } from "./components/JobDetails";
+
+const URL_BASE = import.meta.env.VITE_URL_BASE;
+const TOKEN = import.meta.env.VITE_TOKEN;
 
 const App = () => {
   const [jobs, setJobs] = useState<JobInfo[]>([]);

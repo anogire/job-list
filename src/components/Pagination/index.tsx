@@ -25,7 +25,7 @@ export const Pagination: React.FC<JobListProps> = ({ totalPages, paginate, curre
               ${currentPage !== 1 ? ' hover:opacity-100 focus:opacity-100' : ''}`
             }
           >
-            <img src="./images/arrowLeft.svg" className="mr-2" alt="go to the previous page" />
+            <img src="./images/arrowLeft.svg" width="12px" height="18px" className="mr-2" alt="go to the previous page" />
           </button>
         </li>
         <li>
@@ -60,7 +60,7 @@ export const Pagination: React.FC<JobListProps> = ({ totalPages, paginate, curre
               ${currentPage !== totalPages ? ' hover:opacity-100 focus:opacity-100' : ''}`
             }
           >
-            <img src="./images/arrowRight.svg" className="ml-2" alt="go to the next page" />
+            <img src="./images/arrowRight.svg" width="12px" height="18px" className="ml-2" alt="go to the next page" />
           </button>
         </li>
       </ul>

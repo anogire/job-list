@@ -86,6 +86,8 @@ export const Map: React.FC<MapProps> = ({ lat, long, name, address, phone, email
             </li>
             <li>
               <img
+                width="30px"
+                height="38px"
                 src="./images/location.svg"
                 className="inline h-[1.125rem] mr-2 invert-[.40] align-text-top"
                 alt="location marker"
